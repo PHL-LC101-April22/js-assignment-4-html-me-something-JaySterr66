@@ -2,7 +2,7 @@ element class = "style" {
   }
   main h2 {
       
-      padding: 0.530em 0 0.530em 0.530em;
+      padding: 0.630em 0 0.630em 0.630em;
   }
   h1, h2, h3 {
       margin: 0;
@@ -30,7 +30,6 @@ element class = "style" {
       font-size: 1.6em;
   }
    body {
-      background-color: floralwhite
       width: 100%;
       max-width: 1024px;
       margin: 0 auto;
@@ -57,6 +56,17 @@ element class = "style" {
     text-align: center;
     padding: 3em;
   }
+
+  nav ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 0.75em;
+  }
   
   footer p {
     display: inline-block;
@@ -69,4 +79,3 @@ element class = "style" {
         body {
       font-size: 60%;
     }
-  }
