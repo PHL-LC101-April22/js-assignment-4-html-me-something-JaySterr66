@@ -1,1 +1,36 @@
-/* Write your CSS here! */
+/
+  element.style {
+  }
+  main h2 {
+      align-items: center;
+      padding: 0.530em 0 0.530em 0.530em;
+  }
+  h1, h2, h3 {
+      margin: 0;
+  }
+  user agent stylesheet
+  h2 {
+      display: block;
+      font-size: 1.25em;
+      margin-block-start: 0.80em;
+      margin-block-end: 0.80em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  header, main, footer {
+      background-color: #ccc;
+      font-size: 1.6em;
+  }
+  body {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+      background-color: rgb(186, 148, 148);
+      font-size: 62.5%;
+  }
+  html {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+  }
