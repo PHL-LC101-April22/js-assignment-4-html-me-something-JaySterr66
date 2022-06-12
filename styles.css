@@ -1,15 +1,21 @@
 element class = "style" {
   }
-  main h2 {
-      
-      padding: 0.630em 0 0.630em 0.630em;
-  }
+ 
+header, main, footer {
+    /*background-color: rgb(255, 255, 255);*/
+    font-size: 1.6em;
+}
+#mainHeading {
+  color:  red;
+  font-size: large;
+  padding:0em
+}
+
   h1, h2, h3 {
       margin: 0;
       color: blue;
       text-align: center;
   }
-  
   h2 {
       display: block;
       font-size: 1.25em;
@@ -20,62 +26,71 @@ element class = "style" {
       font-weight: bold;
       text-align: center;
   }
+  main h2 {
+      
+    padding: 0.630em 0 0.630em 0.630em;
+}
+
   h4 {
     display: block;
     font-weight: bold;
     text-align: center;
   }
-  header, main, footer {
-      background-color: #ccc;
-      font-size: 1.6em;
-  }
-   body {
-      width: 100%;
-      max-width: 1024px;
-      margin: 0 auto;
-      background-color: rgb(186, 148, 148);
-      font-size: 62.5%;
-  }
+
   html {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
+      box-sizing: border-box;
   }
+/*these are the attributes loading first*/
+  body {
+    display: block;
+    margin: 8px;
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(195, 241, 247);
+    font-size: 62.5;
+ }
+
+  nav ul {
+    text-align: center;
+    padding: 0;  
+  }
+
+    nav ul li {
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 1em;
+    color: red;  
+  }
+
   figure {
     margin: 0;
     padding: 0;
     text-align: center;
   }
-  
-  figcaption {
+   figcaption {
     font-style: italic;
   }
-  
-  footer {
+    footer {
     font-size: 1.25em;
     text-align: center;
     padding: 3em;
   }
-
-  nav ul {
-    text-align: center;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 3em;
-    font-size: 0.75em;
-  }
-  
   footer p {
     display: inline-block;
+    font-size: 0.75em;
   }
-  
   img {
     width: 70%;
     max-width: 70%;
   }
-        body {
-      font-size: 60%;
-    }
+  #purpleParagraph {
+    color: purple;
+  }
+  .funParagraph {
+    color:  green;
+  }
+
