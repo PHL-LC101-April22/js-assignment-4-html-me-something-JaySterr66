@@ -1,1 +1,109 @@
-/* Write your CSS here! */
+
+header, main, footer {
+    /*background-color: rgb(255, 255, 255);*/
+    font-size: 1em;
+}
+body {
+  display: block;
+  margin: 8px;
+  width: 75%;
+  max-width: 1024px;
+  background-color: rgb(195, 241, 247);
+  font-size: 62.5;
+}
+
+/* p {
+  background-color: blanchedalmond;
+} */
+#mainHeading {
+  color:  red;
+  font-size: medium;
+  padding:0em;
+  display: block;
+}
+
+  h1, h2, h3 {
+      margin: 0;
+      color: blue;
+      text-align: center;
+  }
+  h2 {
+      display: block;
+      font-size: 1.25em;
+      margin-block-start: 0.80em;
+      margin-block-end: 0.80em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      text-align: center;
+  }
+  main h2 {
+      
+    padding: 0.630em 0 0.630em 0.630em;
+}
+
+  h4 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  html {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      box-sizing: border-box;
+  }
+/*these are the attributes loading first*/
+  /* body {
+    display: block;
+    margin: 8px;
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(195, 241, 247);
+    font-size: 62.5;
+ } */
+
+  nav ul {
+    text-align: center;
+    padding: 0;  
+  }
+
+    nav ul li {
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 1em;
+    color: red;  
+  }
+
+  figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+   figcaption {
+    font-style: italic;
+  }
+    footer {
+    font-size: 1.25em;
+    text-align: center;
+    padding: 3em;
+  }
+  footer p {
+    display: inline-block;
+    font-size: 0.75em;
+  }
+  img {
+    width: 70%;
+    max-width: 70%;
+  }
+  #purpleParagraph {
+    color: purple;
+  }
+  .funParagraph {
+     color: green;
+  }
+      
+  
+

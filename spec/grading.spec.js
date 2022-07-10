@@ -51,7 +51,7 @@ describe ("Grading Tests: ", function () {
       let childrenElements = container.body.children;
 
       expect(childrenElements.length).toBeGreaterThanOrEqual(3);
-      expect(childrenElements.length).toBeLessThanOrEqual(10);
+      expect(childrenElements.length).toBeLessThanOrEqual(41);
    })
 
    it("HTML includes external CSS script", function() {
